@@ -18,9 +18,51 @@
     --foreground: #ededed;
   }
 }
+@font-face {
+  font-family: 'Taipei Sans';
+  src: url('/fonts/TaipeiSansTC-Bold.ttf')format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Taipei Sans';
+  src: url('/fonts/TaipeiSansTC-Regular.ttf')format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'PT Sans Narrow';
+  src: url('/fonts/PTSansNarrow-Bold.ttf')format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PT Sans Narrow';
+  src: url('/fonts/PTSansNarrow-Regular.ttf')format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+.font-zh {
+  font-family: 'Taipei Sans', sans-serif;
+}
+
+.font-en {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 800;
+}
+p {
+  font-size: 16px;
+  font-weight: 400;
+}
 body {
   /* background: var(--background);
   color: var(--foreground); */
-  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.05em;
+  color: #5C5C77;
 }
