@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import BackHomeButton from "./components/BackHomeButton";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -62,8 +63,12 @@ export default function RootLayout({
             </a>
           </div>
             </div>
-          <div className="w-full h-full min-w-[250px] bg-[#FBFCFE] flex flex-col justify-start items-start rounded-2xl px-[30px] py-[30px] shadow-sm shadow-blue-500/20 overflow-y-auto overflow-x-hidden">
+          <div className="w-full h-full sm:flex-1 min-w-[250px] bg-[#FBFCFE] flex flex-col justify-start items-start rounded-2xl px-[30px] py-[30px] shadow-sm shadow-blue-500/20 overflow-y-auto overflow-x-hidden">
+          <div className = "w-full h-full flex gap-2">
+            <BackHomeButton />
           {children}</div>
+          </div>
+          
       </div>
       </body>
     </html>
