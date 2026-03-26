@@ -1,4 +1,5 @@
 import Image from "next/image";
+import CountUp from "../components/CountUp";
 
 export default function Home() {
   return (
@@ -27,7 +28,8 @@ export default function Home() {
 
                 <div className="flex items-center justify-center gap-12 mt-2">
                   <div className="text-[#FBFCFE] font-zh text font-bold">訂閱人數</div>
-                  <div className="font-en text-[#FBFCFE] text-[96px] font-bold leading-none">900+</div>
+                  <div className="font-en text-[#FBFCFE] text-[96px] font-bold leading-none">< CountUp end = {900}/>+</div>
+                  
               </div>
 
               <div className="flex justify-end mt-2">
@@ -63,7 +65,7 @@ export default function Home() {
             </div>
         </section>
         
-        <div className="h-px bg-[#C9D4EE] my-6 " />
+        <div className="h-px bg-[#C9D4EE] my-6" />
         
         <section>
           <div className="grid grid-cols-1 xl:grid-cols-[260px_1fr] gap-16">
@@ -71,11 +73,13 @@ export default function Home() {
               <div className="flex flex-col">
                 <div className="section-title">VISUAL IDENTITY</div>
                 
-                <div className="w-[260px] h-[175px] mt-4 bg-[#90D5DA] rounded-2xl relative overflow-auto">
-                  <div className="absolute inset-0 object-cover flex justify-center items-center flex-col">
-                    <div className="absolute bottom-0 left-0 w-full h-[60px] bg-gradient-to-t from-[#57A3A9] to-[#90D5DA]/0" />
-                    <img src="/media/diveai-icon.svg" className="translate-y-[-12px]"/>
-                    <div className="absolute inset-0 flex justify-center items-end mt-8 mb-4 gap-1  text-[14px] text-[#FBFCFE]">
+                <div className="group  w-[260px] h-[175px] mt-4 bg-[#90D5DA] rounded-2xl relative overflow-hidden box-shadow">
+                  <div className="absolute inset-0 flex justify-center items-center flex-col">
+                    
+                    <img src="/media/diveai-icon.svg" className="relative z-10"/>
+                    <div className="absolute bottom-0 left-0 w-full h-[60px] bg-gradient-to-t from-[#57A3A9] to-[#90D5DA]/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                    
+                    <div className="absolute bottom-4 w-full flex justify-center gap-1  text-[14px] text-[#FBFCFE] opacity-0 translate-y-3 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 z-10">
                       <span className="font-zh">呆一布呀</span>
                       <span className="font-en">YouTube</span>
                       <span className="font-en">頻道</span>
@@ -84,16 +88,19 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="w-[260px] h-[175px] mt-4 bg-[#DCA18E] rounded-2xl relative overflow-auto">
-                  <div className="absolute inset-0 object-cover flex justify-center items-center flex-col">
-                    <div className="absolute bottom-0 left-0 w-full h-[60px] bg-gradient-to-t from-[#A76B58] to-[#DCA18E]/0" />
-                    <img src="/media/diveai-icon.svg" className="translate-y-[-12px]"/>
-                    <div className="absolute inset-0 flex justify-center items-end mt-8 mb-4 gap-1 text-[#FBFCFE]">
-                      <span className="font-en text-[14px]">AI</span>
-                      <span className="font-en text-[14px]">知識快問快答短影音企劃</span>
-                      <span className="font-en text-[14px]">LOGO</span>
-                    </div>
+                <div className="group w-[260px] h-[175px] mt-4 bg-[#F7C396] rounded-2xl relative overflow-hidden box-shadow">
+                <div className="absolute inset-0 flex flex-col items-center justify-center">
+                  
+                  <img src="/media/shorts-icon.svg" className="relative z-10" />
+                  <div className="absolute bottom-0 left-0 w-full h-[60px] bg-gradient-to-t from-[#A76B58] to-[#F7C396]/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+
+                  <div className="absolute bottom-4 left-0 w-full flex justify-center gap-1 text-[#FBFCFE] opacity-0 translate-y-3 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 z-10">
+                    <span className="font-en text-[14px]">AI</span>
+                    <span className="font-zh text-[14px]">知識快問快答短影音企劃</span>
+                    <span className="font-en text-[14px]">LOGO</span>
                   </div>
+                </div>
+
                 </div>
               </div>
             
@@ -101,8 +108,10 @@ export default function Home() {
               <div className="flex flex-col">
                 <div className="section-title">PRODUCT DESIGN</div>
 
-                <div className="w-[260px] h-[175px] relative overflow-auto rounded-2xl"></div>
-                <img src="/media/coffee-bg.png" className="absolute inset-0  object-cover"/>
+                <div className="w-[260px] h-[210px] relative overflow-hidden rounded-2xl box-shadow">
+                  <img src="/media/coffee-bg.png" className="absolute inset-0 object-cover"/>
+                </div>
+                
               </div>
             </div>
           </div>

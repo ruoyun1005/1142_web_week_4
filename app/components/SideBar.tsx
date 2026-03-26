@@ -42,7 +42,7 @@ export default function SideBar(){
 
                 <a href="/game">
                   <div className={linkClass("/game")}>
-                  3D GAME
+                    
                   </div>
                 </a>
               </div>
