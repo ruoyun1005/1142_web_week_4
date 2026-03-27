@@ -2,6 +2,10 @@ import type { Metadata } from "next";
 import "./globals.css";
 import BackHomeButton from "./components/BackHomeButton";
 import SideBar from "./components/SideBar";
+import { Geist } from "next/font/google";
+import { cn } from "@/lib/utils";
+
+const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -14,10 +18,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh-Hant" className="h-full antialiased">
+    <html lang="zh-Hant" className={cn("h-full antialiased", "font-sans", geist.variable)}>
       <body className="min-h-full">
       <div className=" bg-[#F1F1F1] w-screen h-screen overflow-y-auto flex flex-col sm:flex-row  gap-5 p-4 sm:p-8">
           <div className="bg-[#FBFCFE] rounded-2xl min-w-[250px] w-full sm:w-[250px] h-auto justify-start items-center flex flex-col p-[24px] pt-[24px] overflow-x-hidden shadow-sm shadow-blue-500/20">
+              
               <img src="/person.svg" alt="avator" width={100} height={100}/>
               <div className="font-zh font-bold text-base mt-4">羅如妘</div>
               <div className="font-en text-sm tracking-wider">Ru yun, Luo</div>
