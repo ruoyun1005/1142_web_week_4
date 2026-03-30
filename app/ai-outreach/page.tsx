@@ -54,7 +54,7 @@ export default function Home() {
 
                 <div className="flex items-center justify-center gap-10 mt-2">
                   <div className="text-[#FBFCFE] font-zh text font-bold whitespace-nowrap">參與人數</div>
-                  <div className="font-en text-[#FBFCFE] text-[96px] font-bold leading-none">1000+</div>
+                  <div className="font-en text-[#FBFCFE] text-[96px] font-bold leading-none">< CountUp end = {1000}/>+</div>
               </div>
 
               <div className="flex justify-end mt-2">
@@ -79,7 +79,7 @@ export default function Home() {
                     <img src="/media/diveai-icon.svg" className="relative z-10"/>
                     <div className="absolute bottom-0 left-0 w-full h-[60px] bg-gradient-to-t from-[#57A3A9] to-[#90D5DA]/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                     
-                    <div className="absolute bottom-4 w-full flex justify-center gap-1  text-[14px] text-[#FBFCFE] opacity-0 translate-y-3 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 z-10">
+                    <div className="absolute bottom-4 w-full flex justify-center gap-1  text-[14px] text-[#FBFCFE] font-bold opacity-0 translate-y-3 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 z-10">
                       <span className="font-zh">呆一布呀</span>
                       <span className="font-en">YouTube</span>
                       <span className="font-en">頻道</span>
@@ -89,27 +89,50 @@ export default function Home() {
                 </div>
 
                 <div className="group w-[260px] h-[175px] mt-4 bg-[#F7C396] rounded-2xl relative overflow-hidden box-shadow">
-                <div className="absolute inset-0 flex flex-col items-center justify-center">
-                  
-                  <img src="/media/shorts-icon.svg" className="relative z-10" />
-                  <div className="absolute bottom-0 left-0 w-full h-[60px] bg-gradient-to-t from-[#A76B58] to-[#F7C396]/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  <div className="absolute inset-0 flex flex-col items-center justify-center">   
+                    <img src="/media/shorts-icon.svg" className="relative z-10" />
+                    <div className="absolute bottom-0 left-0 w-full h-[60px] bg-gradient-to-t from-[#A76B58] to-[#F7C396]/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
-                  <div className="absolute bottom-4 left-0 w-full flex justify-center gap-1 text-[#FBFCFE] opacity-0 translate-y-3 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 z-10">
-                    <span className="font-en text-[14px]">AI</span>
-                    <span className="font-zh text-[14px]">知識快問快答短影音企劃</span>
-                    <span className="font-en text-[14px]">LOGO</span>
+                    <div className="absolute bottom-4 left-0 w-full flex justify-center gap-1 text-[#FBFCFE] font-bold text-[14px] opacity-0 translate-y-3 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 z-10">
+                      <span className="font-en">AI</span>
+                      <span className="font-zh">知識快問快答短影音企劃</span>
+                      <span className="font-en">LOGO</span>
+                    </div>
                   </div>
                 </div>
 
-                </div>
               </div>
             
             <div className="flex flex-col gap-8">
               <div className="flex flex-col">
                 <div className="section-title">PRODUCT DESIGN</div>
 
-                <div className="w-[260px] h-[210px] relative overflow-hidden rounded-2xl box-shadow">
-                  <img src="/media/coffee-bg.png" className="absolute inset-0 object-cover"/>
+                <div className="group w-[260px] h-[210px] mt-4 bg-[#8a8a8a] rounded-2xl relative overflow-hidden box-shadow">
+                  <div className="absolute inset-0 flex flex-col items-center justify-center">
+                    <img src="/media/coffee-bg.png" className="relative z-10" />
+                    <div className="absolute bottom-0 left-0 w-full h-[60px] bg-linear-to-t from-[#343f60] to-[#343f60]/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+
+                    <div className="absolute bottom-4 left-0 w-full flex justify-center gap-1 text-[#FBFCFE] opacity-0 translate-y-3 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 z-10">
+                      <span className="font-zh font-bold text-[14px]">聯名咖啡包製作</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="group w-[260px] h-[175px] mt-4 bg-[#F7C396] rounded-2xl relative overflow-hidden box-shadow">
+                  <div className="absolute inset-0 flex flex-col items-center justify-center">   
+                    <img src="/media/sticker-bg.png" className="relative z-10" />
+                    <div className="absolute bottom-0 left-0 w-full h-[60px] bg-gradient-to-t from-[#A76B58] to-[#F7C396]/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+
+                    <div className="absolute bottom-4 left-0 w-full flex justify-center gap-1 text-[#FBFCFE] font-bold text-[14px] opacity-0 translate-y-3 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 z-10">
+                      <span className="font-en">AI</span>
+                      <span className="font-zh">知識快問快答短影音企劃</span>
+                      <span className="font-en">LOGO</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="w-[260px] h-[210px] relative overflow-hidden rounded-2xl box-shadow mt-4">
+                  <img src="/media/sticker-bg.png" className="absolute inset-0 object-cover"/>
                 </div>
                 
               </div>
