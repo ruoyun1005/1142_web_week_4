@@ -20,10 +20,10 @@ export default function RootLayout({
   return (
     <html lang="zh-Hant" className={cn("h-full antialiased", "font-sans", geist.variable)}>
       <body className="min-h-full">
-      <div className=" bg-[#F1F1F1] w-screen h-screen overflow-y-auto flex flex-col sm:flex-row  gap-5 p-4 sm:p-8">
+      <div className=" bg-[#F2F6FF] w-screen h-screen overflow-y-auto flex flex-col sm:flex-row  gap-5 p-4 sm:p-8">
           <div className="bg-[#FBFCFE] rounded-2xl min-w-[250px] w-full sm:w-[250px] h-auto justify-start items-center flex flex-col p-[24px] pt-[24px] overflow-x-hidden shadow-sm shadow-blue-500/20">
               
-              <div className="h-[100px] w-[100px] rounded-full outline-4 outline-[#5C5C77]">
+              <div className="h-[100px] w-[100px] rounded-full outline-4 outline-[#A7B2CC] duration-300 hover:scale-95">
                 <img src="/media/avatar.png" alt="avator" width={100} height={100} className=""/>
               </div>
               
@@ -32,12 +32,12 @@ export default function RootLayout({
               <div className="flex gap-3 my-4 items-center">
                 <a href="https://www.instagram.com/ruoyun1005/" className="group">
                   <div className="bg-[#FFFEFA] hover:bg-[#A7B2CC] w-[40px] h-[40px] rounded-full flex justify-center items-center transition-colors duration-300 hover:scale-110">
-                    <img src="/Instagram.svg" className="w-[20px] h-[20px] transition-all duration-300 group-hover:invert group-hover:brightness-0" />
+                    <img src="/Instagram.svg" className="w-[20px] h-[20px] transition-all duration-100 group-hover:invert group-hover:brightness-0" />
                   </div>
                 </a>
                 <a href="https://github.com/ruoyun1005" className="group">
                   <div className="bg-[#FFFEFA] hover:bg-[#A7B2CC] w-[40px] h-[40px] rounded-full flex justify-center items-center transition-colors duration-300 hover:scale-110">
-                    <img src="/Github.svg" className="w-[20px] h-[20px] transition-all duration-300 group-hover:invert group-hover:brightness-0" />
+                    <img src="/Github.svg" className="w-[20px] h-[20px] transition-all duration-100 group-hover:invert group-hover:brightness-0" />
                   </div>
                 </a>
               </div>

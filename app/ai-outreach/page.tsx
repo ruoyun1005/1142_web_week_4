@@ -139,10 +139,10 @@ export default function aioutreach() {
             </div>
           </div>
 
-          <div className="flex flex-col gap-8">
+          <div className="flex flex-col mb-8">
           <div className="section-title">POSTER DESIGN</div>
 
-          <div className="grid grid-cols-1  min-[1280px]:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1  min-[1280px]:grid-cols-2 gap-8 mt-4">
           <div className="group w-[240px] h-[230px]  bg-[#F7C396] rounded-2xl relative overflow-hidden box-shadow hover:scale-105 duration-300">
                   <div className="absolute inset-0 flex flex-col items-center justify-center">   
                     <img src="/media/poster-1.png" className="relative"/>
@@ -183,7 +183,10 @@ export default function aioutreach() {
               <div className="absolute bottom-0 left-0 w-full h-[60px] bg-gradient-to-t from-[#3e455892] to-[#F7C396]/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
               <div className="absolute bottom-4 left-0 w-full flex justify-center gap-1 text-[#FBFCFE] font-bold text-[14px] opacity-0 translate-y-3 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 z-10">
-                <span className="font-zh">奇異點工作坊-負責任地使用生成式影像</span>
+                <div className="font-zh text-center flex flex-col justify-center">
+                                  <span>奇異點工作坊</span>
+                                <span>負責任地使用生成式影像</span>
+                                </div>
               </div>
             </div>
           </div>

@@ -11,11 +11,11 @@ export default function SideBar(){
         `w-full h-[80px] rounded-lg transition-colors duration-300 hover:scale-105 flex justify-center items-center font-en font-bold text-lg ${
             pathname === href
             ? "bg-[#A7B2CC] text-white"
-        : "bg-[#EEF2F5] text-[#5C5C77] hover:bg-[#A7B2CC] hover:text-white"
+        : "bg-[#F2F6FF] text-[#5C5C77] outline-4 outline-[#E1E9FC] hover:bg-[#A7B2CC] hover:text-white hover:outline-[#677BAD]"
         }`;
 
     return(
-        <div className="w-full flex flex-col gap-2 justify-center">
+        <div className="w-full flex flex-col gap-4 justify-center">
                 <Link href="/about">
                   <div className={linkClass("/about")}>
                     ABOUT
@@ -42,7 +42,7 @@ export default function SideBar(){
 
                 <Link href="/game">
                   <div className={linkClass("/game")}>
-                    
+                    3D GAME
                   </div>
                 </Link>
               </div>
