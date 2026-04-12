@@ -64,7 +64,7 @@ export default function Math() {
                 </div>
 
                 <div className="relative z-10 max-w-2xl">
-                  <div className="section-title">Mathematical Project</div>
+                  <div className="section-title uppercase">Mathematical Project</div>
                   <h2 className="font-en font-bold text-xl text-[#3D4A6B] leading-snug tracking-widest mt-2 mb-3">
                     {p.title}
                   </h2>

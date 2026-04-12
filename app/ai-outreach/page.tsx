@@ -160,7 +160,7 @@ export default function aioutreach() {
           <div className="section-title">POSTER DESIGN</div>
 
           <div className="grid grid-cols-1  min-[1280px]:grid-cols-2 gap-8 mt-6">
-          <div className="group w-[240px] h-[230px]  bg-[#F7C396] rounded-2xl relative overflow-hidden box-shadow hover:scale-105 duration-300">
+          <div className="group w-[240px] h-[230px]  bg-[#FBFCFE] rounded-2xl relative overflow-hidden box-shadow hover:scale-105 duration-300">
                   <div className="absolute inset-0 flex flex-col items-center justify-center">   
                     <img src="/media/poster-1.png" className="relative"/>
                     <div className="absolute bottom-0 left-0 w-full h-[60px] bg-gradient-to-t from-[#3e455892] to-[#F7C396]/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -171,7 +171,7 @@ export default function aioutreach() {
                   </div>
                 </div>
           
-          <div className="group w-[240px] h-[230px] bg-[#F7C396] rounded-2xl relative overflow-hidden box-shadow hover:scale-105 duration-300">
+          <div className="group w-[240px] h-[230px] bg-[#FBFCFE] rounded-2xl relative overflow-hidden box-shadow hover:scale-105 duration-300">
             <div className="absolute inset-0 flex flex-col items-center justify-center">   
               <img src="/media/poster-2.png" className="relative"/>
               <div className="absolute bottom-0 left-0 w-full h-[60px] bg-gradient-to-t from-[#3e455892] to-[#F7C396]/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -183,7 +183,7 @@ export default function aioutreach() {
           </div>
 
           
-          <div className="group w-[240px] h-[230px] bg-[#F7C396] rounded-2xl relative overflow-hidden box-shadow hover:scale-105 duration-300">
+          <div className="group w-[240px] h-[230px] bg-[#FBFCFE] rounded-2xl relative overflow-hidden box-shadow hover:scale-105 duration-300">
             <div className="absolute inset-0 flex flex-col items-center justify-center">   
               <img src="/media/poster-4.png" className="relative"/>
               <div className="absolute bottom-0 left-0 w-full h-[60px] bg-gradient-to-t from-[#3e455892] to-[#F7C396]/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -194,7 +194,7 @@ export default function aioutreach() {
             </div>
           </div>
 
-          <div className="group w-[240px] h-[230px] bg-[#F7C396] rounded-2xl relative overflow-hidden box-shadow hover:scale-105 duration-300">
+          <div className="group w-[240px] h-[230px] bg-[#FBFCFE] rounded-2xl relative overflow-hidden box-shadow hover:scale-105 duration-300">
             <div className="absolute inset-0 flex flex-col items-center justify-center">   
               <img src="/media/poster-6.png" className="relative"/>
               <div className="absolute bottom-0 left-0 w-full h-[60px] bg-gradient-to-t from-[#3e455892] to-[#F7C396]/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -209,7 +209,7 @@ export default function aioutreach() {
           </div>
 
 
-          <div className="group w-[240px] h-[230px] bg-[#F7C396] rounded-2xl relative overflow-hidden box-shadow hover:scale-105 duration-300">
+          <div className="group w-[240px] h-[230px] bg-[#FBFCFE] rounded-2xl relative overflow-hidden box-shadow hover:scale-105 duration-300">
             <div className="absolute inset-0 flex flex-col items-center justify-center">   
               <img src="/media/poster-7.png" className="relative"/>
               <div className="absolute bottom-0 left-0 w-full h-[60px] bg-gradient-to-t from-[#3e455892] to-[#F7C396]/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -220,7 +220,7 @@ export default function aioutreach() {
             </div>
           </div>
           
-          <div className="group w-[240px] h-[230px] bg-[#F7C396] rounded-2xl relative overflow-hidden box-shadow hover:scale-105 duration-300">
+          <div className="group w-[240px] h-[230px] bg-[#FBFCFE] rounded-2xl relative overflow-hidden box-shadow hover:scale-105 duration-300">
                       <div className="absolute inset-0 flex flex-col items-center justify-center">   
                         <img src="/media/poster-5.png" className="relative"/>
                         <div className="absolute bottom-0 left-0 w-full h-[60px] bg-gradient-to-t from-[#3e455892] to-[#F7C396]/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -234,7 +234,7 @@ export default function aioutreach() {
                       </div>
                     </div>
           
-          <div className="group w-[240px] h-[230px] bg-[#F7C396] rounded-2xl relative overflow-hidden box-shadow hover:scale-105 duration-300">
+          <div className="group w-[240px] h-[230px] bg-[#FBFCFE] rounded-2xl relative overflow-hidden box-shadow hover:scale-105 duration-300">
             <div className="absolute inset-0 flex flex-col items-center justify-center">   
               <img src="/media/poster-11.png" className="relative"/>
               <div className="absolute bottom-0 left-0 w-full h-[60px] bg-gradient-to-t from-[#3e455892] to-[#F7C396]/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -248,7 +248,7 @@ export default function aioutreach() {
             </div>
           </div>
 
-          <div className="group w-[240px] h-[230px] bg-[#F7C396] rounded-2xl relative overflow-hidden box-shadow hover:scale-105 duration-300">
+          <div className="group w-[240px] h-[230px] bg-[#FBFCFE] rounded-2xl relative overflow-hidden box-shadow hover:scale-105 duration-300">
             <div className="absolute inset-0 flex flex-col items-center justify-center">   
               <img src="/media/poster-.png" className="relative"/>
               <div className="absolute bottom-0 left-0 w-full h-[60px] bg-gradient-to-t from-[#3e455892] to-[#F7C396]/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
