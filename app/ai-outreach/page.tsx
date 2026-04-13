@@ -35,12 +35,36 @@ export default function aioutreach() {
           {/* Header */}
           <div className="">
             <div className="section-title font-en">AI OUTREACH CAMPAIGN</div>
-          <div className="font-zh text ">此專案為一項以推廣 AI 知識為核心的校園計畫，透過講座、工作坊與影音傳播，提升大眾對 AI 的理解與參與。</div>
-          <div className="font-zh text">在此專案中，我負責將整體企劃轉化為一致的視覺與溝通系統，包含品牌視覺、海報設計與產品設計。</div>
             
- 
-          <section>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
+          <div className="grid grid-cols-1 min-[860px]:grid-cols-2 gap-6 lg:gap-8 items-end">
+              {/* 專案概述 */}
+            <section className="-translate-y-8">
+              <div className="relative z-0">
+              <div className="flex justify-end -translate-x-4 translate-y-8">
+                <img src="/media/dive-icon.svg" className="w-28 h-28" />
+            </div>
+              <div className="bg-[#FBFCFE] rounded-2xl p-6 outline-1 outline-[#C9D4EE] flex flex-col gap-6 pt-8 pb-6 px-6 relative z-10">
+            <div>
+              <div className="font-zh text-[16px] font-bold text-[#3D4A6B] leading-tight tracking-wide">專案概述</div>
+              <div className="text font-zh mt-4">此專案為政治大學蔡炎龍教授帶領，為一項以推廣 AI 知識為核心的校園計畫，透過講座、工作坊與影音傳播，提升大眾對 AI 的理解與參與。</div>
+              <div className="font-zh text-[16px] font-bold text-[#3D4A6B] leading-tight tracking-wide mt-6">負責部分</div>
+              <div className="grid grid-cols-2 gap-2 mt-4">
+                {['品牌視覺', '海報設計', '產品設計'].map((item, i) => (
+                  <div
+                    key={i}
+                    className={`font-zh text-sm font-bold text-[#A7B2CC] text-center border border-[#C9D4EE] rounded-xl py-3 px-4 hover:bg-[#F2F6FF] transition-colors duration-200 ${i === 2 ? 'col-span-2 sm:col-span-1' : ''}`}
+                  >
+                    {item}
+                  </div>
+                ))}
+              </div>
+            </div>
+            </div>
+              </div>
+            </section>
+            
+            <section>
+            <div className="grid grid-row-1 sm:grid-row-2 gap-4 mt-6">
             
             {/* YouTube */}  
             <div className="relative rounded-2xl overflow-hidden h-[180px] hover:scale-[1.02] transition-transform duration-300">
@@ -86,6 +110,11 @@ export default function aioutreach() {
               </div>
       </section>
         
+          </div>
+          
+          
+          
+          
         <div className="h-px bg-[#C9D4EE] my-6" />
         
         <section>
